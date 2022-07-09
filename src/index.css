@@ -1,0 +1,72 @@
+            * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                margin: 0px;
+                background: #E15647;
+            }
+            
+            h2 {
+                padding: 18px;
+                background: #E15647;
+                color: #fff;
+            }
+            
+            .App {
+                padding: 30px;
+                background: #fff;
+                width: 80%;
+                margin: 50px auto;
+                box-shadow: 1px 2px 5px #eee;
+            }
+            
+            input {
+                width: 80%;
+                background: #e8e8e8e8;
+                border: 0;
+                padding: 6px 10px;
+            }
+            
+            button {
+                width: 20%;
+                background: #4dc559;
+                color: #fff;
+                border: 0;
+                cursor: pointer;
+                padding: 8px 0;
+                outline: 0;
+                font-weight: bold;
+                margin: 0;
+            }
+            
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+            
+            li {
+                margin: 15px 0;
+            }
+            
+            li span {
+                display: inline-block;
+                width: 60%;
+                color: #6a6a6a;
+            }
+            
+            li>button:first-of-type {
+                background: #6a6a6a;
+                color: #fff;
+                margin-right: 1%;
+                width: 19%;
+            }
+            
+            li>button:last-of-type {
+                background: #d9534f;
+                color: #fff;
+            }
+            
+            ul form {
+                margin: 15px 0;
+            }
